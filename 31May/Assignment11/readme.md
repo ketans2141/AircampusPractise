@@ -1,4 +1,4 @@
 <h1>This is my Output </h1>
-<img src="op1.png" alt="op1">
-<img src="op2.png" alt="op2">
-<img src="op3.png" alt="op3">
+<img src="/Images/op1.png" alt="op1">
+<img src="/Images/op2.png" alt="op2">
+<img src="/Images/op3.png" alt="op3">
