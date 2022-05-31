@@ -1,0 +1,27 @@
+.Container{
+    display: grid;
+    grid-template-areas: 'header header header header' 'aside section section section' 'footer footer footer footer';
+    text-align: center;
+    width: 50%;
+    
+}
+header{
+    grid-area: header;
+    background-color: red;
+    height: 30px;
+}
+aside{
+    grid-area: aside;
+    background-color: yellowgreen;
+    height: 150px;
+}
+main{
+    grid-area: section;
+    background-color: blue;
+    height: 150px;
+}
+footer{
+    grid-area: footer;
+    background-color: green;
+    height: 30px;
+}

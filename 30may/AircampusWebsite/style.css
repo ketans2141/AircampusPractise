@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* =======heading part===== */
+.head{
+    background-color:  rgb(62, 15, 105);
+    position: sticky;
+    top: 0;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.container1{
+    max-width: 1300px;
+    margin: auto;
+}
+.airlogo{
+    text-decoration: none;
+
+}
+.img1{
+    width: 200px;
+    border-radius: 40px;
+    padding: 10px;
+}
+.navbar a{
+   line-height: 80px;
+   font-size: 20px;
+   text-decoration: none;
+   color: white;
+   padding: 3px 20px 3px 20px;
+}
+a:hover{
+    color: black;
+    border-radius: 45px;
+    /* font-size: 33px; */
+    background-color:white;
+}
+#btn1{
+    color: yellow;
+    background-color: rgb(62, 15, 105) ;
+}
+#btn1:hover{
+    font-size: 21px;
+}
+
+/* main section */
+.container2{
+    max-width: 1300px;
+    margin: auto;
+    text-align: center;
+}
+.maindiv{
+    padding-top: 10%;
+}
+#line1{
+    font-size: 80px;
+    font-family: Arial, sans-serif
+}
+#line2{
+    font-size: 100px;
+    padding: 25px;
+}
+#line3{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    word-spacing: 10px;
+}
+.cont{
+    font-size: 25px;
+    word-spacing: 5px;
+    padding: 50px 0px 30px 0px;
+}
+.btn1{
+    background-color:rgb(62, 15, 105) ;
+    border: 1px rgb(62, 15, 105);
+    border-radius: 5px;
+    font-size: 30px;
+    color: white;
+    padding: 10px;
+}
+.btn1:hover{
+    background-color:rgb(46, 7, 83) ;
+}
+span{
+    color:rgb(43, 9, 75) ;
+    font-weight: bolder;
+}
+/* details section  */
+.container3{
+    max-width: 1400px;
+    margin: auto;
+}
+.symb{
+    font-size: 80px;
+    padding: 50px 30px 20px 0px;
+
+}
+.box{
+    margin-top: 12%;
+    width: 430px;
+    border: 1px solid rgb(160, 14, 160);
+    background-color: rgb(155, 151, 151);
+}
+.innerbox{
+    width: 250px;
+    padding: 30px 20px 30px 0px;
+}
+.boxheading{
+    font-size: 40px;
+    padding: 10px 0px;
+}
+.linetop{
+    font-size: 18px;
+    font-weight: bold;
+}
+.linebottom{
+    font-size: 20px;
+}
+/* hiring section  */
+.container4{
+    max-width: 1400px;
+    margin: auto;
+}
+.logodiv{
+    padding-top: 100px ;
+}
+.leftheading{
+    margin-top: 5%;
+    font-size: 20px;
+    /* text-transform: capitalize; */
+}
+.imglogo1{
+    width: 150px;
+    height: 50px;
+}
+.logodiv{
+    max-width: 1000px;
+    margin: auto;
+}
+.companylogo1 ,.companylogo2 ,.companylogo3{
+    padding-bottom: 80px;
+}
+.companylogo3{
+    max-width:800px ;
+    margin: auto;
+}
+.lastl{
+    text-align: center;
+    font-size: 25px;
+    text-transform: lowercase;
+}
