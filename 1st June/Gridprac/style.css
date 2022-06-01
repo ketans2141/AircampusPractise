@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container1{
+    display: grid;
+    margin-bottom: 50px;
+    grid-template-columns: 200px 300px;
+    grid-template-rows: 300px 200px;
+    /* grid-auto-rows: 200px 150px; */
+}
+#item1{
+    background-color: brown;
+}
+#item2{
+    background-color: aqua;
+}
+#item3{
+    background-color: yellow;
+}
+#item4{
+    background-color: lightskyblue;
+}
+#item5{
+    background-color: goldenrod;
+}
+#item6{
+    background-color: green;
+}
+/* ===========container2========== */
+.container2{
+    display: grid;
+    grid-template-rows: 200px 200px ;
+    grid-auto-rows: 100px;
+    grid-auto-flow: column;
+    /* grid-auto-flow: row; */
+    grid-template-areas: 'a a b b' 'c c c c' 'd e e e' 'f f f g' 'h h h h' 'i j j j' 'k k k k' 'l l l l';
+
+}
+#itema{
+    background-color: yellow;
+    grid-area: a;
+}
+#itemb{
+    background-color: pink;
+    grid-area: b;
+}
+#itemc{
+    background-color: lightskyblue;
+    grid-area: c;
+}
+#itemd{
+    background-color: burlywood;
+    grid-area: d;
+}
+#iteme{
+    background-color: brown;
+    grid-area: e;
+}
+#itemf{
+    background-color: goldenrod;
+    grid-area: f;
+}
+#itemg{
+    background-color: violet;
+    grid-area: g;
+}
+#itemh{
+    background-color: khaki;
+    grid-area: h;
+}
+#itemi{
+    background-color: teal;
+    grid-area: i;
+}
+#itemj{
+    background-color: tomato;
+    grid-area: j;
+}
+#itemk{
+    background-color: magenta;
+    grid-area: k;
+}
+#iteml{
+    background-color: salmon;
+    grid-area: l;
+}

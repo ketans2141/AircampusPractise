@@ -224,6 +224,7 @@ span{
     display: flex;
     flex-wrap: wrap;
     margin: auto;
+    padding-top: 100px;
     height: 500px;
     width: 900px;
     justify-content: space-around;
@@ -236,11 +237,40 @@ span{
     padding: 50px 0px;
 }
 .line{
-    color: red;
+    border-top: 5px solid red;
 }
 /* ==================footer=============== */
 .icons{
+    max-width: 600px;
+    margin: auto;
     display: flex;
     justify-content: center;
-    color: black;
+    /* justify-content: space-between; */
+    /* color: black; */
+}
+.foot{
+    background-color: #293462;
+}
+.links{
+    color: #f8f6c7;
+    padding: 30px;
+    line-height: 5px;
+    font-size: 30px;
+}
+.back-to-top{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background-color: hsl(210, 14%, 73%);
+    padding: 0.25rem;
+}
+.tarrow{
+    position: fixed;
+    bottom: 10%;
+    right: 20px;
 }

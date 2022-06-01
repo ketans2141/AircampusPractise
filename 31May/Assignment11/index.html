@@ -13,12 +13,13 @@
         href="https://fonts.googleapis.com/css2?family=PT+Sans&family=Roboto+Mono:wght@200&family=Signika+Negative:wght@300&family=Tiro+Bangla&display=swap"
         rel="stylesheet">
         <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+        <script src="https://kit.fontawesome.com/d3f3344fc9.js" crossorigin="anonymous"></script>
    
 </head>
 
 <body>
     <!-- ==========Header========== -->
-    <header class="head">
+    <header  id="Top" class="head">
         <div class="container1 flex">
             <div class="brand">
                 <h1>Position</h1>
@@ -120,7 +121,7 @@
                         <p class="p1">Item4</p>
                     </div>
                 </div>
-                <hr>
+                <hr class="line">
             </div>
             <div class="container4">
                 <div class="flex2">
@@ -210,8 +211,11 @@
                 <div class="flexbox">
                     <p class="p1">Item5</p>
                 </div>
+                
             </div>
+           
             <div class="container5">
+                <hr class="line">
                 <div class="flex3">
                     <div class="flexbox">
                         <p class="p1">Item1</p>
@@ -234,12 +238,16 @@
                 </div>    
             </div>
         </section>
+        <div class="tarrow">
+            <a href="#Top" class="back-to-top" aria-label="Scroll to Top">
+                <i class="fa-solid fa-circle-arrow-up"></i></a>
+        </div>
     </main>
-    <footer>
+    <footer class="foot">
         <div class="icons">
-            <a href="#"><box-icon name='instagram' type='logo' ></box-icon></a>
-            <a href="#"><box-icon name='twitter' type='logo' ></box-icon></a>
-            <a href="#"><box-icon type='logo' name='facebook-circle'></box-icon></a>
+            <a href="#" class="links"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="links"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#" class="links"><i class="fa-brands fa-facebook"></i></a>
         </div>
     </footer>
 </body>
