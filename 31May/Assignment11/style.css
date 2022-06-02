@@ -263,13 +263,17 @@ span{
     font-size: 3rem;
     line-height: 3rem;
     text-align: center;
-    width: 3rem;
+    width: 80px;
     height: 3rem;
-    border-radius: 50%;
-    background-color: hsl(210, 14%, 73%);
-    padding: 0.25rem;
+    /* border-radius: 50%; */
+    background-color: red;
+    color: white;
+    
 }
 .tarrow{
+    margin: 0;
+    padding: 0;
+    border: 2px solid rgb(255, 0, 0);
     position: fixed;
     bottom: 10%;
     right: 20px;
