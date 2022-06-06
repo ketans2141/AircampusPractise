@@ -1,0 +1,108 @@
+*{
+    border: 0;
+    padding: 0;
+}
+/* ========================header================================= */
+header{
+    background-color: black;
+}
+.container{
+    max-width: 1500px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar{
+    display: flex;
+    /* padding: 20px; */
+}
+h1{
+    color: gold;
+}
+.navlinks{
+    text-decoration: none;
+    font-size: 25px;
+    padding: 0px 30px;
+    color: white;
+}
+ /* ============================dropdown1================================= */
+.dropdown_content1 {
+    display: none;
+    position: absolute;
+    background-color: #fde400;
+    /* padding: 10px; */
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.685);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  .dropdown1:hover .dropdown_content1 {
+    display: block;
+  }
+   /* ============================dropdown2================================= */
+  .dropdown_content2 {
+    display: none;
+    position: absolute;
+    background-color: #fa8e00;
+    /* padding: 10px; */
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.685);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  .dropdown2:hover .dropdown_content2 {
+    display: block;
+  }
+   /* ============================dropdown3================================= */
+  .dropdown_content3 {
+    display: none;
+    position: absolute;
+    background-color: #07cec4;
+    /* padding: 10px; */
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.61);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  .dropdown3:hover .dropdown_content3 {
+    display: block;
+  }
+  /* ============================dropdown4================================= */
+  .dropdown_content4 {
+    display: none;
+    position: absolute;
+    background-color: #ae07fc;
+    /* padding: 10px; */
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.603);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  .dropdown4:hover .dropdown_content4 {
+    display: block;
+  }
+  /* =====================================main======================================= */
+  .main{
+    background-color: rgb(172, 172, 172);
+    height: 400px;
+  }
+  .main_heading{
+    color: black;
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 200px;
+  }
+  .bold{
+    font-size: 100px;
+    color: red;
+  }
+  .div_img{
+    max-width: 400px;
+    margin: auto;
+  }
+  .youtube_img{
+    width: 400px;
+    text-align: center;
+  }
