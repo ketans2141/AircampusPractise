@@ -342,6 +342,17 @@ else{
 // The alphabet is a consonant.
 /* Your answer here
 */
+let alphabet;
+alphabet= d;
+
+if (alphabet == a && alphabet == e && alphabet == i && alphabet == o && alphabet == u) 
+{
+  console.log("This is  vowel");
+}
+ else
+  {
+  console.log("This is  consonant");
+}
 // 18. Write a program to calculate profit and loss on a transaction.
 // Test Data :
 // Input buy price: 500
