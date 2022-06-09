@@ -67,7 +67,12 @@ else {
 // 2016 is a leap year.
 /* Your answer here
 */
-
+let leapYear = 2020;
+if (leapYear % 4 == 0) {
+    console.log(" This is  leap year");
+} else {
+    console.log( " This is not a  leap year");
+}
 
 // 5. Write a  program to read the age of a candidate and determine whether it is eligible for casting his/her own vote.
 // Test Data : 21
@@ -178,20 +183,20 @@ let x1, y1;
 x1 = 5;
 y1 = 9;
 
-// if (x1 > 0 && y1 > 0) {
-//     console.log("1st Quadrant");
-// }
-// else if (x1 < 0 && y1 > 0);
-// {
-//     console.log("2nd Quadrant");
-// }
-// else if (x1 < 0 && y1 < 0);
-// {
-//     console.log("3rd Quadrant");
-// }
-// else {
-//     console.log("4th Quadrant");
-// }
+if (x1 > 0 && y1 > 0) {
+    console.log("1st Quadrant");
+}
+else if (x1 < 0 && y1 > 0);
+{
+    console.log("2nd Quadrant");
+}
+else if (x1 < 0 && y1 < 0);
+{
+    console.log("3rd Quadrant");
+}
+else {
+    console.log("4th Quadrant");
+}
 
 
 
