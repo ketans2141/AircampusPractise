@@ -1,0 +1,30 @@
+.container1{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle{
+    width: 200px;
+    height: 200px;
+    background-color: tomato;
+    border: 2px solid black;
+    border-radius: 50%;
+    
+}
+.container2{
+    height: 100vh;
+    position: relative;
+    /* left: 50%; */
+}
+.square{
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    border: 2px solid black;
+    position: absolute;
+    left: 50%;
+    
+}

@@ -433,7 +433,7 @@ else if (billAmount < 100) {
 }
 console.log("Customer ID-NO :1001");
 console.log("Customer Name :James");
-// console.log("Unit consumed:800")
+console.log("Unit consumed:800")
 console.log("billAmount:", billAmount);
 
 
