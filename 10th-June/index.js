@@ -235,6 +235,18 @@ else {
 // No solution.
 /* Your answer here
 */
+let n1 = 1;
+let n2 = 5;
+let n3 = 7;
+let d1 = (n1 * n1) - (4 * n2 * n3);
+if (d1 < 0) {
+    console.log("Root are imaginary");
+}
+else if (d1 == 0) {
+    console.log("Root are real and equal");
+}else {
+    console.log("Root are real and unequal");
+}
 // 12. Write a program to read roll no, name and marks of three subjects and calculate the total, percentage and division.
 // Test Data :
 // Input the Roll Number of the student :784
@@ -262,6 +274,22 @@ else {
 // 42
 // Expected Output :
 // Its very hot.
+let temp = 42;
+if (temp <0){
+    console.log("Freezing weather");
+} else if (temp >=0 && temp <=10){
+    console.log("Very Cold weather");
+} else if (temp >=10 && temp <=20){
+    console.log("Cold weather");
+} else if (temp >=20 && temp <=30){
+    console.log("Normal in Temp");
+} else if (temp >=30 && temp <=40){
+    console.log("Its Hot");
+} else {
+    console.log("Its Very Hot");
+}
+
+
 /* Your answer here
 */
 // 14. Write a program to check whether a triangle is Equilateral, Isosceles or Scalene.
@@ -644,3 +672,39 @@ switch (months) {
         console.log("31 Days");
         break;
 }
+// ===================================================
+
+// Print the digits in reverse orders
+
+let numbers=1234567;
+let rem=0;
+while(numbers!=0){
+    rem=numbers%10;
+    numbers=Math.floor(numbers/10);
+    console.log(rem);
+}
+
+
+// print the number in reverse ordrer
+
+let numbers1=1234567;
+let rem1,rev=0;
+while(numbers1!=0){
+    rem=numbers1%10;
+    numbers1=Math.floor(numbers1/10);
+    rev=rev*10+rem;
+}
+console.log("The reversed no is : "+ rev);
+
+
+// print first and last digit of number 
+
+let numbers2=1234567;
+let rem2,rev1=0;
+while(numbers2!=0){
+    rem2=numbers2%10;
+    numbers2=Math.floor(numbers2/10);
+    // rev1=rev1*10+rem2;
+}
+console.log("The 1st digit is : "+ rem2);
+console.log("The last digit is : "+ numbers2)
