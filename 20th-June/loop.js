@@ -76,3 +76,37 @@ while(l<=20){
     l++;
 }
 
+// Armstrong using for loop 
+
+let number=153;
+let sum=0;
+let temp=number;
+while(temp>0){
+    let digit=temp%10;
+    sum=sum+digit**3;
+    temp=Math.floor(temp/10);
+}
+if(number==sum){
+    console.log(number+" is an Armstrong number");
+}
+else{
+    console.log(number+" is not am Armstrong number");
+
+}
+
+// Using for loop 
+
+let number1=370;
+let sum1=0;
+let temp1=number1;
+for(i=0;i<=3;i++){
+    let digit1=temp1%10;
+    sum1=sum1+digit1**3;
+    temp1=Math.floor(temp1/10);
+}
+if(number1==sum1){
+    console.log(number1+" is an Armstrong number");
+}
+else{
+    console.log(number1+" is not an Armstrong number");
+}
