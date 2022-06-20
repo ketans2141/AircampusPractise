@@ -466,6 +466,35 @@ console.log("billAmount:", billAmount);
 
 
 
+// Accept the number of days from the user and calculate the charge for library according to following :
+
+// Till five days : Rs 0/day.
+
+// Six to ten days : Rs 3/day.
+
+// 11 to 15 days : Rs 4/day
+
+// After 15 days : Rs 5/day
+
+// constraints:
+
+// 0<=day<=365
+let number_of_days=10;
+// charge=10;
+let day1;
+if(number_of_days<=5){
+    number_of_days= day1*0;
+}
+else if(number_of_days>5 && number_of_days<=10){
+    number_of_days= day1*3;
+}
+else if(number_of_days>10 && number_of_days<=15){
+    number_of_days= day1*4-day1*3;
+}
+else if(number_of_days>15){
+    number_of_days= day1*5-day1*4-day1*3;
+}
+console.log(number_of_days);
 
 
 
