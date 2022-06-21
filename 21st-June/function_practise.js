@@ -125,6 +125,7 @@ function product(a,b){
     console.log(ans8);
 
 
+// check password is correct or not
 
 let check=(num)=>{
     let pswd=12345;
@@ -140,3 +141,49 @@ let check=(num)=>{
 }
     let ans9=check(12345);
     console.log(ans9);
+
+// if num divsible by 3 then print "Hello" , if number divisible by 5 print "world", if number divisible by 15 print "Hello World" 
+
+let divisible=(num)=>{
+    if(num%15==0){
+        return "Hello World";
+    }
+    else if(num%5==0){
+        return "World";
+    }
+    else if(num%3==0){
+        return "Hello";
+    }
+    else{
+        return "not divisible";
+    }
+}
+    let ans10=divisible(13);
+    console.log(ans10);
+    
+
+// Take 3 numbers and find and return biggest of them. If all three numbers are same than print "None of them is biggest"
+// if there are two numbers same as biggest than also print "None of them is biggest"
+
+let biggest=(a,b,c) =>{
+    switch(a>b && a>c){
+        case true:
+            return a;
+            break;
+        }
+        switch(b>a && b>c){
+            case true:
+                return b;
+                break;
+        }
+        switch(c>a && c>b){
+            case true:
+                return c;
+        }
+        switch(a==b || a==c || b==c){
+            case true:
+                return "None of them is biggest";
+        }
+}
+    let ans11=biggest(10,20,30);
+    console.log(ans11);
