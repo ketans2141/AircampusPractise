@@ -126,3 +126,17 @@ function product(a,b){
 
 
 
+let check=(num)=>{
+    let pswd=12345;
+    let correctpswd=2141;
+    for(let i=1;i<=3;i++){
+        if(num==pswd){
+            return "password is correct";
+        }
+        else{
+            return "password is incorrect";
+        }
+    }
+}
+    let ans9=check(12345);
+    console.log(ans9);
