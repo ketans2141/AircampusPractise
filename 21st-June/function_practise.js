@@ -187,3 +187,29 @@ let biggest=(a,b,c) =>{
 }
     let ans11=biggest(10,20,30);
     console.log(ans11);
+
+
+
+// Accept the number of days from the user and calculate the charge for library according to following :
+// Till five days : Rs 0/day.
+// Six to ten days : Rs 3/day.
+// 11 to 15 days : Rs 4/day
+// After 15 days : Rs 5/day
+
+let library=(num)=>{
+    if(num<=5){
+        return num*0;
+    }
+    else if(num>5 && num<=10){
+        return (num-5)*3;
+    }
+    else if(num>10 && num<=15){
+        return (num-10)*4+(5*3);
+    }
+    else{
+        return (num-15)*5+(5*4)+(5*3);
+    }
+}
+    let ans12=library(10);
+    console.log(ans12);
+  
