@@ -91,5 +91,38 @@ function product(a,b){
     let ans5=cTof(25);
     console.log(ans5);
 
+    // ---------------------------using arrow function---------------------------- 
+
+    // Farhenheit to Celsius 
+
+    let faToC=(f)=>{
+        let c=(f-32)*5/9;
+        return c;
+    }
+    let ans6=faToC(77);
+    console.log(ans6);
+
+
+    // addition of two numnbers 
+
+    let add=(a,b)=>{
+        let sum=a+b;
+        return sum;
+    }
+    let ans7=add(10,20);
+    console.log(ans7);
+
+    //sum of square of digits of a number
+
+    let sumOfSquare=(num)=>{
+        let sum=0;
+        for(let i=0;i<=num;i++){
+            sum=sum+i**2;
+        }
+        return sum;
+    }
+    let ans8=sumOfSquare(12);
+    console.log(ans8);
+
 
 
