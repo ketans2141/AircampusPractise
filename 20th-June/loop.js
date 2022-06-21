@@ -110,3 +110,4 @@ if(number1==sum1){
 else{
     console.log(number1+" is not an Armstrong number");
 }
+    
