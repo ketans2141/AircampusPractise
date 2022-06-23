@@ -40,4 +40,35 @@ function facto(num,fact){
     }
     return fact;
 }
-console.log(facto(5,1))
+console.log(facto(5,1));
+
+
+// Write a Javascript program to count the number of digits a given number has using recursion.
+
+function numberDigit(num,count){
+    if(num>0){
+        count=count+1;
+        num=Math.floor(num/10);
+        return numberDigit(num,count);
+    }
+    return count;
+}
+console.log(numberDigit(12345,0));
+
+
+
+// Convert a given decimal number to binary using recursion.
+
+// function decimalToBinary(num){
+//     if(num>0){
+//         let digit=Math.floor(num%2);
+//         return decimalToBinary(Math.floor(num/2))+digit;
+
+//     }
+// }
+// console.log(decimalToBinary(10));
+
+
+
+// Given a number n, print all the even numbers from n to 1 using recursion. 
+
