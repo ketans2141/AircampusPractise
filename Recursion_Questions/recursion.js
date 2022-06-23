@@ -33,3 +33,11 @@ number(10,1);
 
 // Print factorial of a number using recursion.
 
+function facto(num,fact){
+    if(num>0){
+        fact=fact*num;
+        return facto(num-1,fact);
+    }
+    return fact;
+}
+console.log(facto(5,1))
