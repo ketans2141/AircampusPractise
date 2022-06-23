@@ -89,7 +89,7 @@ console.log(fibonacci(12));
 
 
 
-// factorial of a number using recursion 
+// // factorial of a number using recursion 
 
 function fact(num,facto){
     if(num>0){
