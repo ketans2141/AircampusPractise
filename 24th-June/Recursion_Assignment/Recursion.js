@@ -66,3 +66,23 @@ function sumRange(num1,num2){
 }
 console.log(sumRange(1,10));
 
+
+// Print the product of all the numbers in given range  using recursion.
+
+// function product(num1,num2){
+//     if(num1<=num2)
+
+
+
+// Print sum of all the first 10 even numbers using recursion. 
+
+function sumEven(num,sum){
+    if(num<=10){
+        if(num%2==0){
+            sum=sum+num;
+        }
+        return sumEven(num+1,sum);
+    }
+    return sum;
+}
+console.log(sumEven(1,0));
