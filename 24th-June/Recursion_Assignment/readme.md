@@ -6,3 +6,6 @@
 <img src="qst5.png" alt="output">
 <img src="qst6.png" alt="output">
 <img src="qst7.png" alt="output">
+<img src="qst8.png" alt="output">
+<img src="qst9.png" alt="output">
+
