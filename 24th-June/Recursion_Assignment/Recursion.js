@@ -30,4 +30,16 @@ function evenNumbers(num1,num2){
     }
 }
 evenNumbers(1,10);
+
+
+// Find the factorial of a given number n. 
+
+function facto(num1,fact){
+    if(num1>=1){
+        fact=fact*num1;
+        return facto(num1-1,fact);
+    }
+    return fact;
+}
+console.log(facto(4,1));
   
