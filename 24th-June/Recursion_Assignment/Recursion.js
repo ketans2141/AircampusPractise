@@ -21,13 +21,13 @@ numberDescending(10,1);
 
 // Print all the even numbers in the given range using recursion
 
-// function evenNumbers(num1,num2){
-//     if(num1<=num2){
-//         if(num1%2==0){
-//             console.log(num1);
-//         }
-//         evenNumbers(num1+1,num2);
-//     }
-// }
-// evenNumbers(1,10);
+function evenNumbers(num1,num2){
+    if(num1<=num2){
+        if(num1%2==0){
+            console.log(num1);
+        }
+        evenNumbers(num1+1,num2);
+    }
+}
+evenNumbers(1,10);
   
