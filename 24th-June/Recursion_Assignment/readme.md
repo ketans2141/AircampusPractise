@@ -4,3 +4,4 @@
 <img src="qst3.png" alt="output">
 <img src="qst4.png" alt="output">
 <img src="qst5.png" alt="output">
+<img src="qst6.png" alt="output">
