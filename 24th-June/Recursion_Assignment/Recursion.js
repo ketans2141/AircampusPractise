@@ -10,13 +10,13 @@ numberRange(1,10);
 
 // Print all the numbers in descending order in the given range 
 
-// function numberDescending(num1,num2){
-//     if(num1>=num2){
-//         console.log(num1);
-//         numberDescending(num1-1,num2);
-//     }
-// }
-// numberDescending(10,1);
+function numberDescending(num1,num2){
+    if(num1>=num2){
+        console.log(num1);
+        numberDescending(num1-1,num2);
+    }
+}
+numberDescending(10,1);
 
 
 // Print all the even numbers in the given range using recursion
