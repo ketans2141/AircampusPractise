@@ -97,4 +97,22 @@ console.log(productRange(1,5));
 
 // Write the recursive function to check whether a given number is prime or not. 
 
+let mul = 2;
+let isprime = 0;
+function primeNumber(number) {
+    if (mul <= number) {
+        if (number % mul == 0) {
+            isprime=1;
+            mul++;
+            return primeNumber(number);
+        }
+        if(isprime == 0){
+            console.log("Yes It is Prime number");
+        } else{
+            console.log("No It is not a  Prime number");
+        }
+    }
 
+}
+
+primeNumber(17);
