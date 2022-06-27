@@ -86,3 +86,12 @@ function prodNumber(a,b){
     return product;
 }
 console.log(prodNumber(1,5));
+
+
+
+
+// // let fname="Ketan";
+// var fname="Ketan";
+// let  fname="shetge";
+// console.log(fname);
+// // const x=
