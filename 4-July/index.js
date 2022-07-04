@@ -82,12 +82,36 @@
 // console.log(fact);
 
 
-function getName(){
-    return "Ketan";
-}
-console.log("Ketan")
-let x=getName();
-console.log(x);
-let y=5;
-console.log(5);
+// function getName(){
+//     return "Ketan";
+// }
+// console.log("Ketan")
+// let x=getName();
+// console.log(x);
+// let y=5;
+// console.log(5);
 
+
+
+
+function makePizza(order,call){
+    console.log(order);
+    call();
+  }
+  function orderPizza(){
+    console.log("order processing");
+  }
+  function ingredients(){
+    console.log("flavored added");
+  }
+  function cookedBaked(){
+    console.log("ready and out for delivery");
+  }
+  function atePizza(){
+    console.log("pizza received and ate it");
+  }
+  
+  makePizza("order a pizza ",orderPizza)
+  makePizza("ingredeints ready",ingredients)
+  makePizza("cooked and backed",cookedBaked)
+  makePizza("received",atePizza)
