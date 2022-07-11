@@ -1,8 +1,8 @@
-var numbers = [1,2,3,4,5,6,7,8];
-numbers.forEach(function(element, index, array){
-    array[index] = element* element;
-});
-console.log(numbers);
+// var numbers = [1,2,3,4,5,6,7,8];
+// numbers.forEach(function(element, index, array){
+//     array[index] = element* element;
+// });
+// console.log(numbers);
 
 
 // function square(arr) {
@@ -18,11 +18,11 @@ console.log(numbers);
 // console.log(square([1,2,3,4]));
 
 
-// function square(arr){
-//     let sqr=arr.map(num=>num**2);
-//     return sqr;
-// }
-// console.log(square([1,2,3,4,5]));
+function square(arr){
+    let sqr=arr.map(num=>num**2);
+    return sqr;
+}
+console.log(square([1,2,3,4,5]));
 
 
 // function goodManager(arr){
