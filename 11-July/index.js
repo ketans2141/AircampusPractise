@@ -18,16 +18,16 @@
 // console.log(square([1,2,3,4]));
 
 
-function square(arr){
-    let sqr=arr.map(num=>num**2);
-    return sqr;
-}
-console.log(square([1,2,3,4,5]));
+// function square(arr){
+//     let sqr=arr.map(num=>num**2);
+//     return sqr;
+// }
+// console.log(square([1,2,3,4,5]));
 
 
-// function goodManager(arr){
-//     return arr.map(function incSal(Sal){
-//       return Sal+1000;
-//     })
-//     }
-//     console.log(goodManager([1000,2000,3000]));
+function goodManager(arr){
+    return arr.map(function incSal(Sal){
+      return Sal+1000;
+    })
+    }
+    console.log(goodManager([1000,2000,3000]));
