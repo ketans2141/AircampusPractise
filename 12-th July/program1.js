@@ -14,22 +14,23 @@
 
 // First non-repeating number 
 
-let nums=[1,4,3,5,6,2,3];
+// let nums=[1,4,3,5,6,2,3];
 
-for(let i=0;i<nums.length;i++){
-    if(nums.indexOf(nums[i])==nums.lastIndexOf(nums[i])){
-        console.log(nums[i]);
-    }
-}
-
-// using function first non- repeating number
-// let num=[1,2,1,2,1,3,4];
-// function nonRepeating(num){
-//     for(let i=0;i<num.length;i++){
-//         if(num.indexOf(num[i])==num.lastIndexOf(num[i])) return num[i];
+// for(let i=0;i<nums.length;i++){
+//     if(nums.indexOf(nums[i])==nums.lastIndexOf(nums[i])){
+//         console.log(nums[i]);
 //     }
 // }
-// console.log(nonRepeating(num));
+
+// using function first non- repeating number
+
+let num=[1,2,1,2,1,3,4];
+function nonRepeating(num){
+    for(let i=0;i<num.length;i++){
+        if(num.indexOf(num[i])==num.lastIndexOf(num[i])) return num[i];
+    }
+}
+console.log(nonRepeating(num));
 
 
 // arr=[2,4,6,8];
