@@ -33,20 +33,20 @@
 // console.log(nonRepeating(num));
 
 
-arr=[2,4,6,8];
-
-let sqr=arr.filter(function(num){
-    return (num**2>15)
-})
-console.log(sqr);
-
-
 // arr=[2,4,6,8];
 
-// let sqr=arr.map(function(num){
-//     return num**2;
+// let sqr=arr.filter(function(num){
+//     return (num**2>15)
 // })
-// // return sqr;
 // console.log(sqr);
+
+
+arr=[2,4,6,8];
+
+let sqr=arr.map(function(num){
+    return num**2;
+})
+// return sqr;
+console.log(sqr);
 
 
