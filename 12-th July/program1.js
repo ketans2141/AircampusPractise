@@ -1,26 +1,26 @@
-// to find first index of given Element 
+// // to find first index of given Element 
 
-let arr=[1,2,5,3,2,6];
+// let arr=[1,2,5,3,2,6];
 
-console.log(arr.indexOf(5));
+// console.log(arr.indexOf(5));
 
 
-// last index of element 
+// // last index of element 
 
-let array=[1,3,4,2,5,3,2];
+// let array=[1,3,4,2,5,3,2];
 
-console.log(array.lastIndexOf(3));
+// console.log(array.lastIndexOf(3));
 
 
 // First non-repeating number 
 
-// let nums=[1,4,3,5,6,2,3];
+let nums=[1,4,3,5,6,2,3];
 
-// for(let i=0;i<nums.length;i++){
-//     if(nums.indexOf(nums[i])==nums.lastIndexOf(nums[i])){
-//         console.log(nums[i]);
-//     }
-// }
+for(let i=0;i<nums.length;i++){
+    if(nums.indexOf(nums[i])==nums.lastIndexOf(nums[i])){
+        console.log(nums[i]);
+    }
+}
 
 // using function first non- repeating number
 // let num=[1,2,1,2,1,3,4];
