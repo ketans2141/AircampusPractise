@@ -24,21 +24,21 @@
 
 // using function first non- repeating number
 
-let num=[1,2,1,2,1,3,4];
-function nonRepeating(num){
-    for(let i=0;i<num.length;i++){
-        if(num.indexOf(num[i])==num.lastIndexOf(num[i])) return num[i];
-    }
-}
-console.log(nonRepeating(num));
+// let num=[1,2,1,2,1,3,4];
+// function nonRepeating(num){
+//     for(let i=0;i<num.length;i++){
+//         if(num.indexOf(num[i])==num.lastIndexOf(num[i])) return num[i];
+//     }
+// }
+// console.log(nonRepeating(num));
 
 
-// arr=[2,4,6,8];
+arr=[2,4,6,8];
 
-// let sqr=arr.filter(function(num){
-//     return (num**2>15)
-// })
-// console.log(sqr);
+let sqr=arr.filter(function(num){
+    return (num**2>15)
+})
+console.log(sqr);
 
 
 // arr=[2,4,6,8];
