@@ -1,19 +1,19 @@
-arr=[2,5,10,7,5];
-let rev=[];
-for(let i=arr.length-1; i>=0; i--){
-    rev.push(arr[i]);
+// arr=[2,5,10,7,5];
+// let rev=[];
+// for(let i=arr.length-1; i>=0; i--){
+//     rev.push(arr[i]);
     
-}
-console.log(rev);
+// }
+// console.log(rev);
 
-function rev(arr){
-    let reverse =[];
-    for(let i=arr.length-1;i>=0;i--){
-        reverse.push(arr[i]);
-    }
-    return reverse;
-}
-console.log(rev([2,5,1,3]));
+// function rev(arr){
+//     let reverse =[];
+//     for(let i=arr.length-1;i>=0;i--){
+//         reverse.push(arr[i]);
+//     }
+//     return reverse;
+// }
+// console.log(rev([2,5,1,3]));
 
 
 
@@ -21,7 +21,6 @@ console.log(rev([2,5,1,3]));
 // let y=x;
 // y="Singh";
 // console.log(y);
-
 
 
 // let obj={
@@ -35,13 +34,13 @@ console.log(rev([2,5,1,3]));
 
 // object assign 
 
-// let obj={ name:"Ketan"};
+let obj={ name:"Ketan"};
 
-// let user=Object.assign({},obj);
-// user.name="Shetge";
+let user=Object.assign({},obj);
+user.name="Shetge";
 
-// console.log(obj);
-// console.log(user);
+console.log(obj);
+console.log(user);
 
 // let obj={ name:"Ketan"};
 
