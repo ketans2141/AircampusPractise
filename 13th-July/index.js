@@ -34,21 +34,21 @@
 
 // object assign 
 
-let obj={ name:"Ketan"};
-
-let user=Object.assign({},obj);
-user.name="Shetge";
-
-console.log(obj);
-console.log(user);
-
 // let obj={ name:"Ketan"};
 
-// let user={...obj};      //Destructuring
+// let user=Object.assign({},obj);
 // user.name="Shetge";
 
 // console.log(obj);
 // console.log(user);
+
+let obj={ name:"Ketan"};
+
+let user={...obj};      //Destructuring
+user.name="Shetge";
+
+console.log(obj);
+console.log(user);
 
 
 
