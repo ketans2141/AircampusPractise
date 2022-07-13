@@ -42,28 +42,28 @@
 // console.log(obj);
 // console.log(user);
 
-let obj={ name:"Ketan"};
+// let obj={ name:"Ketan"};
 
-let user={...obj};      //Destructuring
-user.name="Shetge";
-
-console.log(obj);
-console.log(user);
-
-
-
-
-
-// let obj={
-//     name:"Ketan",
-//     details:{
-//         id:1234,
-//         city:"Mumbai"
-
-//     }
-// };
-
-// let user=JSON.parse(JSON.stringify(obj));
-// user.details.id=4567;
+// let user={...obj};      //Destructuring
+// user.name="Shetge";
 
 // console.log(obj);
+// console.log(user);
+
+
+
+
+
+let obj={
+    name:"Ketan",
+    details:{
+        id:1234,
+        city:"Mumbai"
+
+    }
+};
+
+let user=JSON.parse(JSON.stringify(obj));
+user.details.id=4567;
+
+console.log(obj);
