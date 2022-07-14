@@ -5,3 +5,4 @@
 <img src="four.png" alt="one">
 <img src="five.png" alt="one">
 <img src="six.png" alt="one">
+<img src="seven.png" alt="one">

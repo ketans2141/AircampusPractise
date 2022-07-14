@@ -58,6 +58,14 @@
 
 // substring and substr 
 
-let fname= "KetanShetge";
-console.log(fname.substring(0,5));
-console.log(fname.substr(4,8))
+// let fname= "KetanShetge";
+// console.log(fname.substring(0,5));
+// console.log(fname.substr(4,8))
+
+
+
+// toUpperCase & toLowerCase 
+
+let value= "maHarashtRA"
+console.log(value.toLowerCase());
+console.log(value.toUpperCase());
