@@ -44,11 +44,20 @@
 
 // extracting ketan 
 
-let name="KetanShetge";
-console.log(name.slice(0,5));
+// let name="KetanShetge";
+// console.log(name.slice(0,5));
 
-// charAt method
-// if the index value exceeds it gives blank space
+// // charAt method
+// // if the index value exceeds it gives blank space
 
-let fname="Ketan";
-console.log(fname.charAt(2));
+// let fname="Ketan";
+// console.log(fname.charAt(2));
+
+
+
+
+// substring and substr 
+
+let fname= "KetanShetge";
+console.log(fname.substring(0,5));
+console.log(fname.substr(4,8))
