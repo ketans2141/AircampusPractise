@@ -35,8 +35,20 @@
 
 // printing all the characters of string 
 
-let fname="Ketan"
+// let fname="Ketan"
 
-for(i=0; i<fname.length; i++){
-    console.log(fname[i]);
-}
+// for(i=0; i<fname.length; i++){
+//     console.log(fname[i]);
+// }
+
+
+// extracting ketan 
+
+let name="KetanShetge";
+console.log(name.slice(0,5));
+
+// charAt method
+// if the index value exceeds it gives blank space
+
+let fname="Ketan";
+console.log(fname.charAt(2));
