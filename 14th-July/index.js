@@ -9,17 +9,34 @@
 
 
 // shallow copy 
-let num1=[1,2,3];
-// console.log(num1)
-let num2=[...num1];
+// let num1=[1,2,3];
+// // console.log(num1)
+// let num2=[...num1];
 
-num2[0]=5;
-console.log(num1,num2);
+// num2[0]=5;
+// console.log(num1,num2);
 
 
 // template literals 
 
-let fname="Ketan";
-let lname="Shetge";
+// let fname="Ketan";
+// let lname="Shetge";
 
-console.log(`"${fname}" '${lname}'`)
+// console.log(`"${fname}" '${lname}'`)
+
+
+// strings are immutable 
+
+// let fname="Ketan";
+// fname[0]="V";
+// fname="Shetge";
+// console.log(fname);
+
+
+// printing all the characters of string 
+
+let fname="Ketan"
+
+for(i=0; i<fname.length; i++){
+    console.log(fname[i]);
+}
