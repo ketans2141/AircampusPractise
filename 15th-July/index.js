@@ -16,14 +16,20 @@
 
 // for of
 
-let nums=[1,2,3,4];
-// normal for loop 
-for(let i=0;i<nums.length;i++){          
-    console.log(nums[i]);
-}
+// let nums=[1,2,3,4];
+// // normal for loop 
+// for(let i=0;i<nums.length;i++){          
+//     console.log(nums[i]);
+// }
 
-for(let num of nums){
-    console.log(num);
-}
+// for(let num of nums){
+//     console.log(num);
+// }
 
+
+let menu=["Paneer Butter","Paneer Tikka","Chicken Fried Rice","Chicken momos"]
+
+for(let dish of menu){
+    console.log(dish);
+}
 
