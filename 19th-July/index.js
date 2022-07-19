@@ -18,11 +18,11 @@
 // console.log(maharashtra[info],maharashtra[info]["age"])
 
 // adding function inside object 
-
+function createSquare(side1,side3){
 let square={
-    side1:4,
+    side1:side1,
     side2:3,
-    side3:6,
+    side3:side3,
     side4:2,
     area:{
         formula:"side**2",
@@ -31,4 +31,9 @@ let square={
         return "drawing circle";
     },
 };
-console.log(square.draw())
+return square;
+}
+// console.log(square.draw())
+
+let square1=createSquare(4,6)
+console.log(square1.side1,square1.side3)
