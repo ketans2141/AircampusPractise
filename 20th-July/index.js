@@ -15,14 +15,33 @@
 // }
 
 
-let createEmp={
-    empName:"Tushar",
-    empId:2141,
-    empAdd:"Mumbai",
-}
+// let createEmp={
+//     empName:"Tushar",
+//     empId:2141,
+//     empAdd:"Mumbai",
+// }
 
-// extracting all key value pairs 
+// // extracting all key value pairs 
 
-for(let emp in createEmp){
-    console.log(emp,createEmp[emp])
+// for(let emp in createEmp){
+//     console.log(emp,createEmp[emp])
+// }
+
+
+let teacher={
+    job:"teaching",
+    location:"school",
+    dream:"career building",
+    experience:"4 years"
 }
+// for extracting keys 
+let teacherkeys= Object.keys(teacher)
+console.log(teacher);
+
+// for extracting values 
+let teachervalues=Object.values(teacher)
+console.log(teachervalues);
+
+// for extracting both keys and values 
+let properties= Object.entries(teacher)
+console.log(properties);
