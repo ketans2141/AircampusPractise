@@ -14,10 +14,19 @@ console.log(midchar("testing"))
 
 // ================objects ===================
 
-// let person={
-//     fname:"Ketan",
-//     lname:"Shetge",
-//     age:22,
-//     city:"Mumbai",
-// }
-// console.log(person)
+let person={
+    fname:"Ketan",
+    lname:"Shetge",
+    age:22,
+    city:"Mumbai",
+}
+// to add new property to object 
+person.country="India"
+console.log(person)
+// to change existing property 
+person.age=24;
+console.log(person)
+//to delete property 
+delete person.age;
+console.log(person)
+
