@@ -30,3 +30,15 @@ console.log(person)
 delete person.age;
 console.log(person)
 
+
+// ========rest operator ==============
+
+function add(subject,branch,...marks){
+    let total=0;
+    for(let i in marks){
+        total=total+marks[i];
+    }
+    return total;
+}
+console.log(add("Physics","Mechanical",60,40,50))
+
