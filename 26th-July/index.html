@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button class="languages">Select Languages</button>
+    <div style="display: none; background-color: yellow;">
+        <ul>
+            <li>English</li>
+            <li>Hindi</li>
+            <li>Marathi</li>
+            <li>Gujarati</li>
+            <li>Tamil</li>
+            <li>Telugu</li>
+        </ul>
+    </div>
+
+    <script>
+        let button = document.querySelector(".languages");
+        let div = document.querySelector("div");
+        let ul = document.querySelector('ul');
+        button.addEventListener("click",Myfunction);
+
+        function Myfunction(){
+            if(div.style.display =="none"){
+                div.style.display ="Block";
+                // div.style.background="aqua"
+            }else{
+                div.style.display = "none";
+            }
+        }
+    </script>
+</body>
+</html>
