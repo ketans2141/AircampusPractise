@@ -26,8 +26,8 @@ console.log(check("ketan"))
 
 //string="My name is ketan"   check if  is present in string
 
-// function isCheck(string){
-//     if(string.includes("ketan"))return "Yes";
-//     else return "No"
-// }
-// console.log(isCheck("My name is ketan"))
+function isCheck(string){
+    if(string.includes("ketan"))return "Yes";
+    else return "No"
+}
+console.log(isCheck("My name is ketan"))
