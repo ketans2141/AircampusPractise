@@ -39,6 +39,7 @@ hr{
     outline: none;
     border-radius: 6px;
     border: 1px solid lightgray;
+    padding: 6px;
 }
 
 #add_btn{
@@ -46,4 +47,16 @@ hr{
     background-color: white;
     color: grey;
     font-size: 18px;
+}
+
+.toDo_List{
+    /* text-decoration: none; */
+    list-style: none;
+}
+
+.edit,.del{
+    border: none;
+    background-color: white;
+    color: gray;
+    font-size: 20px;
 }
