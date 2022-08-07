@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(238, 233, 233);
+}
+.container{
+    max-width: 1400px;
+    text-align: center;
+    margin: 0 auto;
+}
+.heading{
+    text-align: center;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+.addItem,.toDo,.complete{
+    border: 1px solid black;
+    width: 450px;
+    height:250px;
+    border-radius: 10px;
+    background-color: white;
+    font-size: larger;
+    border: none;
+
+}
+
+hr{
+    border: 2px solid rgb(17, 10, 10);
+}
+
+#input{
+    width:350px;
+    /* border: none; */
+    outline: none;
+    border-radius: 6px;
+    border: 1px solid lightgray;
+}
+
+#add_btn{
+    border: none;
+    background-color: white;
+    color: grey;
+    font-size: 18px;
+}
