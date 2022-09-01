@@ -17,4 +17,8 @@ let parentsName={
 let parentFullName=function(hometown,state){
     console.log(`My name is ${this.fname} ${this.lname} and we belong to ${hometown} ${state}`);
 }
-parentFullName.apply(parentsName,["Devgad","Maharashtra"])
+parentFullName.apply(parentsName,["Devgad","Maharashtra"]);
+
+
+let printName=parentFullName.bind(fullName,"Mumbai","Maharashtra");
+console.log(printName)
